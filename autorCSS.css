@@ -1,0 +1,63 @@
+body {
+   background: linear-gradient(to right, #abc7ff 49%, #c1e3ff 92%);
+}
+
+h1,h2,h3{
+  color: black;
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+}
+
+p {
+  font-family: Apple Chancery , cursive;
+  color: black;
+  text-align: left;
+}
+
+artykul {
+  float: right;
+  width: 28%;
+  background: silver;
+  padding: 20px;
+}
+
+opis {
+  float: left;
+  background-color: silver;
+  width: 65%;
+  padding: 20px;	
+}
+
+akapit {
+  float: left;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+form{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+table {
+  font-family: Apple Chancery , cursive;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: #fafafa}
+
+th {
+  background-color: silver;
+  color: black;
+}
+
+

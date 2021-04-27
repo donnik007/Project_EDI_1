@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mail</title>
+<link rel="stylesheet" href="autorCSS.css">
+<style>
+  .container {
+  position: relative;
+  text-align: center;
+  color: black;
+  }
+  .centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  }
+</style>
+</head>
+<body>
+  <script src="myScript.js"></script>
+
+  <div class="container">
+    <img src="zdj/komp.jpg" alt="komp" style="width:100%;">
+    <div class="centered" id="mail" style="visibility: hidden;"><h2 >XXXXXXXXXXX</h2></div>
+    <div class="centered" onclick="mail1(this)" style="top: 30%;transform: translate(-20%, -50%);"><h3>Click mail for email</h3><img src="zdj/mailing.png" alt="komp" style="width:10%;"></div>
+  </div>
+</body>
+</html>
